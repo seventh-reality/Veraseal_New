@@ -1,29 +1,83 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <title>Varian </title>
+    <title>VERASEAL</title>
     <meta charset="utf-8">
     <meta name="description" content="&lt;model-viewer&gt; template">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link type="text/css" href="./styles.css" rel="stylesheet"/>
      <script src="https://cdn.jsdelivr.net/npm/focus-visible@5.0.2/dist/focus-visible.js" defer></script>
+    <link rel="stylesheet" href="css/font-icons.css" type="text/css" />
+    <link rel="stylesheet" href="css/font-icons.css" type="text/css" />
+	  <style>
+        h5 {
+            text-align: center;
+            margin-top: -5px;
+            font-size: 9px;
+            color: #636363; /* Improves visibility */
+        }
+
+        .attributiontwo {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 10px 0;
+        }
+
+        .attributiontwo span {
+            display: flex;
+            flex-wrap: nowrap;
+            justify-content: center;
+        }
+
+        .attributiontwo a {
+            margin: 15px;
+            text-decoration: none; /* Removes underline */
+           -webkit-tap-highlight-color: transparent; /* Removes blue highlight */
+        }
+
+        .icon {
+            width: 43px;
+            height: 43px;            
+        }
+        .icon:hover {
+            transform: scale(1.1);         
+        }
+
+        /* Responsive Design */
+        @media (max-width: 600px) {
+            .attributiontwo {
+                padding: 15px;
+            }
+            .icon {
+                width: 43px;
+                height: 43px;
+            }
+        }
+    </style>
+	  <script type="text/javascript">
+    (function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+    })(window, document, "clarity", "script", "r1v76itnth");
+</script>
   </head>
   <body>
-    <div id="card"><style>
-      height: 600px;
-      </style>
+    <div id="card" >
     <!-- <model-viewer> HTML element -->
-    <model-viewer src="vERASEAL.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls poster="loading.gif"  shadow-intensity="0.88" shadow-softness="1" exposure="1" environment-image="legacy">
+    <model-viewer src="VERASEAL.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls poster="loading.gif"  shadow-intensity="0.88" shadow-softness="1" exposure="1">
       <div class="progress-bar hide" slot="progress-bar">
           <div class="update-bar"></div>
-      </div>
-       <div id="button" style = "display:flex; justify-content: space-between;">
-          <img src="4.png"  align="center" style="width:100px;  padding-left: 0px;padding-top: 0px;"/>
-	  <img src="iitname.png"  style="width:100px;  padding-right: 8px;padding-top: 0px;"/>    
       </div>
       <button slot="ar-button" id="ar-button">
         View in 4D
     </button>
+       <div id="button" style = "display:flex; justify-content: space-between;">
+          <img src="4.png"  align="center" style="width:100px;  padding-left: 0px;padding-top: 0px;"/>
+	  <img src="iitname.png"  style="width:100px;  padding-right: 15px;padding-top: 0px;"/>    
+      </div>
      
       <div id="ar-prompt">
           <img src="ar_hand_prompt.png">
@@ -34,14 +88,13 @@
       
       <span>
         
-        <a href="https://www.jnjmedtech.com/system/files/pdf/Veraseal-Brochure-203845-220216_0.pdf"><img src="Brochure.png" id="youtube-icon" align="center" style="width:30px;height:40px; padding-left: 17px;padding-top: 0px;"></a>
-        <a href="https://www.youtube.com/watch?v=bqcgZBkZ9QY"><img src="Video.png" id="youtube-icon" align="center" style="width:30px;height:40px; padding-left: 20px;padding-top: 0px;"></a>
-        <a href="https://www.jnjmedtech.com/en-EMEA/product/veraseal-solution-for-sealant"><img src="web.png" id="youtube-icon" align="center" style="width:30px;height:40px; padding-left: 20px;padding-top: 0px;"></a>
-        <a href="https://www.ema.europa.eu/en/documents/product-information/veraseal-epar-product-information_en.pdf"><img src="serch.png" id="youtube-icon" align="center" style="width:30px;height:40px; padding-left: 20px;padding-top: 0px;"></a>
-        <a href="https://docs.google.com/forms/d/e/1FAIpQLSf6lXf4uQzXl1dqclN3MBmbL0N5xqPL9fXU9v5GrlOQN7DIhA/viewform?usp=sf_link"><img src="form.png" id="youtube-icon" align="center" style="width:30px;height:40px; padding-left: 20px;padding-top: 0px;"></a>
-        <h5>CLICK ON THE ABOVE ICONS FOR MORE FEATURES</h5>    
+        <a href="https://drive.google.com/file/d/1kpr9csFU_trpcXrLeKH5CQIM5k02qxK6/view?usp=sharing"><img src="Brochure_1.png" class="icon"></a>
+        <a href="https://youtu.be/feR4lDjrLt8"><img src="Video_1.png" class="icon"></a>
+        <a href="https://seventh-reality.com/"><img src="web_1.png" class="icon"></a>
+        <a href="https://forms.gle/nPU6KsDggsqnVopt6"><img src="form_1.png" class="icon"></a>
+        
       </span>
-	       <style>
+         <style>
        h5 {
        text-align: center;
        margin-top:-5px; 
@@ -51,29 +104,18 @@
          }
           
    </style>  
-         <h8></h8>
-         <style>
-       h8 {
-
-       text-align: center;
-       margin-top:-13px; 
-       font-family: sans-serif;
-       color:Gray;
-       font-size: 20px;  
-         }
-          
-   </style>  
    
     </section>
+      
        </div>
-   <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-53D90B5414"></script>
+ <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-53QH36XFTD"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
 
-  gtag('config', 'G-53D90B5414');
+  gtag('config', 'G-53QH36XFTD');
 </script>
     <script src="script.js"></script>
     <!-- Loads <model-viewer> for browsers: -->
